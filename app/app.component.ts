@@ -24,8 +24,8 @@ export class AppComponent{
 		console.log(this.pelicula);
 	}
 
-	onShowHide()
+	onShowHide(value)
 	{
-		this.mostrarDatos = true;
+		this.mostrarDatos = value;
 	}
 }

@@ -31,8 +31,8 @@ System.register(["angular2/core", "./model/pelicula"], function(exports_1, conte
                 AppComponent.prototype.debug = function () {
                     console.log(this.pelicula);
                 };
-                AppComponent.prototype.onShowHide = function () {
-                    this.mostrarDatos = true;
+                AppComponent.prototype.onShowHide = function (value) {
+                    this.mostrarDatos = value;
                 };
                 AppComponent = __decorate([
                     core_1.Component({
